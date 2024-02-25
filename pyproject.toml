@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "emojito"
+version = "0.1.0.post2"
+description = "Define your own shortnames to be replaced with emojis or other content."
+license = "GPL-3.0-or-later"
+readme = "README.md"
+authors = ["Maximillian Strand <maxi@millian.se>"]
+repository = "https://gitlab.com/emojito/emojito"
+
+
+[tool.poetry.dependencies]
+python = "^3.10"
+beautifulsoup4 = "^4.11.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
